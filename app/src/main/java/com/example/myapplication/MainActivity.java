@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
 }
 
-    public class GmailValidator {
+    public class GmailValidador {
 
         public static boolean validarEmailGmail(String email) {
             // Expressão regular para validar um endereço de e-mail do Gmail
