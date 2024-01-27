@@ -57,21 +57,6 @@ public class MainActivity extends AppCompatActivity {
 
 }
 
-    public class GmailValidador {
-
-        public static boolean validarEmailGmail(String email) {
-            // Expressão regular para validar um endereço de e-mail do Gmail
-            String regex = "^[a-zA-Z0-9_]+@gmail\\.com$";
-
-            // Compilar a expressão regular em um padrão
-            Pattern pattern = Pattern.compile(regex);
-
-            // Criar um objeto Matcher para comparar o padrão com o e-mail fornecido
-            Matcher matcher = pattern.matcher(email);
-
-            // Retornar true se o e-mail corresponder ao padrão, indicando que é um Gmail válido
-            return matcher.matches();
-        }
 
 
 
