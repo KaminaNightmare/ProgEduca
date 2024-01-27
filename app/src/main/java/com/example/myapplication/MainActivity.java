@@ -57,9 +57,6 @@ public class MainActivity extends AppCompatActivity {
 
 }
 
-
-
-
     public void Proximo(View v){
 
         Intent it = new Intent(getApplicationContext(), MainActivity2.class);
