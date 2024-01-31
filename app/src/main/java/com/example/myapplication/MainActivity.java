@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText edtNome,edtEmail;;
+    EditText edtNome,edtEmail;
     Button btnVamos;
 
 
